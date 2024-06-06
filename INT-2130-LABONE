@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double mm = 1.8 * 100;
+	double cm = mm * 0.1;
+	double inches = cm * 0.3937;
+
+	cout << "The ocean rose " << cm << " centimeters or " << inches << " inches in the last 100 years.";
+
+	return 0;
+}
